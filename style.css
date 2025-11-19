@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+    color: #fbfbfb;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #66fcf1;
+}
+
+.content {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 50px 100px;
+
+    @media (max-width: 768px) {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 150px; 
+}
